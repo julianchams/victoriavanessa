@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Orienta|Roboto:500,400,300,900|Signika:700,600,400,300);
+
+html {
+}
+
+body {
+	background-color: black;
+	font-family: 'helvetica', sans-serif;
+}
+
+.navbar-default {
+background-color: white;
+border-color: white;
+border-radius: none;
+}
+
+.navbar {
+border-radius: 0;
+}
+
+
+li {
+	min-height: 60px;
+	padding: 5px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: deeppink;
+}
