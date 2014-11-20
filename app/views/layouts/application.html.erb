@@ -25,28 +25,18 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	        <li class="dropdown">
-          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ROPA <span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu">
-					<li><a href="#">ULTIMA COLECCION</a></li>
-					<li><a href="#">BLAZERS</a></li>
-					<li><a href="#">BLUSAS Y CAMISAS</a></li>
-					<li><a href="#">FALDAS</a></li>
-					<li><a href="#">PANTALONES</a></li>
-					<li><a href="#">VESTIDOS</a></li>
-				</ul>
-        	</li>
-	       	<li><a href="#">SALES</a></li>
-	        <li><a href="#">LOOKBOOK</a></li>
-        	<li><a href="#">ASESORIA</a></li>
+			<li><%= link_to "ROPA", "/static_pages/ropa" %></li>
+	       	<li><%= link_to "SALES", "/static_pages/sales" %></li>
+	        <li><%= link_to "LOOKBOOK", "/static_pages/lookbook" %></li>
+        	<li><%= link_to "ASESORIA", "/static_pages/asesoria" %></li>
 	        <li class="dropdown">
           		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">GUIAS <span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
-					<li><a href="#">DE SILUETA</a></li>
-					<li><a href="#">DE ESTILO</a></li>
+					<li><%= link_to "DE SILUETA", "/static_pages/guia_silueta" %></li>
+					<li><%= link_to "DE ESTILO", "/static_pages/guia_estilo" %></li>
 				</ul>
         	</li>
-	        <li><a href="#">HISTORIA</a></li>
+	        <li><%= link_to "HISTORIA", "/static_pages/historia" %></li>
 	      </ul>
 	      <!-- <form class"navbar-form, navbar-left" role="search">
 	      	<div class="form-group">

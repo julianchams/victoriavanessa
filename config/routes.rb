@@ -7,6 +7,20 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'static_pages#index'
 
+  get "static_pages/asesoria"
+
+  get "static_pages/guia_estilo"
+
+  get "static_pages/guia_silueta"
+
+  get "static_pages/historia"
+
+  get "static_pages/lookbook"
+
+  get "static_pages/ropa"
+
+  get "static_pages/sales"
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
