@@ -1,10 +1,13 @@
-<div class="container-fluid">
-	<button type="button" class= "btn btn-default btn-lg">&Uacute;ltima Colecci&oacute;n</button>
+<div class="text-center container-fluid center-block">
+	<!-- <button type="button" class= "btn btn-default btn-lg">&Uacute;ltima Colecci&oacute;n</button> -->
 	<div class="btn-group btn-group-lg" role="group" aria-label="...">
-		<button type="button" class="btn btn-default">Blusas/Camisas</button>
-		<button type="button" class="btn btn-default">Blazers</button>
-		<button type="button" class="btn btn-default">Faldas</button>
-		<button type="button" class="btn btn-default">Pantalones</button>
-		<button type="button" class="btn btn-default">Vestidos</button>
+		<button type="button" class="btn btn-default" onclick="categorySelector('blusa')">blusas</button>
+		<button type="button" class="btn btn-default" onclick="categorySelector('blazer')">blazers</button>
+		<button type="button" class="btn btn-default" onclick="categorySelector('falda')">faldas</button>
+		<button type="button" class="btn btn-default" onclick="categorySelector('pantalon')">pantalones</button>
+		<button type="button" class="btn btn-default" onclick="categorySelector('vestido')">vestidos</button>
+	</div>
+	<br><br>
+	<div class="row clothing-items">
 	</div>
 </div>
